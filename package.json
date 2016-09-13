@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "nodesjs":"4.2.x",
+    "npm":"2.14.x"
+  },
   "author": "Joe Ames ft. Diogo Queiroz",
   "license": "BSD-2-Clause",
   "dependencies": {
