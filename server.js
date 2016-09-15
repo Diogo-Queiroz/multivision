@@ -25,7 +25,11 @@ app.use(stylus.middleware(
 ));
 app.use(express.static(__dirname + "/public"));
 
-mongoose.connect('mongodb://localhost/multivision');
+if (env === 'development'){
+	mongoose.connect('mongodb://localhost/multivision');
+} else {
+	mongoose.connect('mongodb://diogo-admin:multivision@ds033116.mlab.com:33116/plural-multivision')
+}
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error...'));
 db.once('open', function callback() {
