@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poiret+One|Lato:400italic,700italic,100italic,300italic,900italic|Cantarell:700italic,400");
 body {
   padding-top: 61px;
-  font-family: "Lato", "Poiret One", sans-serif;
+  font-family: "Lato", "Poiret One", "Cantarell", sans-serif;
+  font-weight: 900;
 }
 .navbar-header a.navbar-brand {
   margin-top: -15px;
