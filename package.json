@@ -7,16 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "nodesjs":"4.2.x",
-    "npm":"2.14.x"
+    "nodesjs": "4.2.x",
+    "npm": "2.14.x"
   },
   "author": "Joe Ames ft. Diogo Queiroz",
   "license": "BSD-2-Clause",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.2.0",
+    "express-session": "^1.14.1",
     "mongoose": "^4.6.0",
     "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
     "pug": "^2.0.0-beta6",
     "stylus": "^0.54.5"
   }
