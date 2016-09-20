@@ -1,8 +1,8 @@
 var path = require('path');
-var rootPath = path.normalize(__dirname + '../../');
+var rootPath = path.normalize(__dirname + '../../..');
 
 module.exports = {
-    developemtn: {
+    development: {
         db:'mongodb://localhost/multivision',
         rootPath: rootPath,
         port: process.env.PORT || 3030
