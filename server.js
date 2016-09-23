@@ -28,12 +28,12 @@ passport.use(new LocalStrategy(
 
 passport.serializeUser(function (user, done) {
     if(user){
-        done(null, user.__id);
+        done(null, user._id);
     }
 });
 
 passport.deserializeUser(function (id, done) {
-    User.findOne({__id:id}).exec(function (err, user) {
+    User.findOne({_id:id}).exec(function (err, user) {
         if(user){
             return done(null, user);
         } else {

@@ -44,3 +44,9 @@ footer.page-footer .footer-copyright {
 .navbar-form .form-group {
   margin-right: 10px;
 }
+.toast-top-right {
+  top: 60px;
+}
+.toast-success {
+  background-color: #101010;
+}
