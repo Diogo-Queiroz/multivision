@@ -1,8 +1,10 @@
 var path = require('path');
-var rootPath = path.normalize(__dirname + '../../..');
+var rootPath = path.normalize(__dirname + '/../../');
 /* Variável acima teve que ser __dirname + três levels acima, o
  * route não estava conseguindo encontrar os arquivos pq o caminho
  * não estava legal
+ * estava assim para funcionar '../../..' acho que estava faltando
+ * uma barra no caminho
  */
 
 module.exports = {
