@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "nodesjs": "0.10.25",
+    "nodejs": "0.10.25",
     "npm": "2.14.x"
   },
   "author": "Joe Ames ft. Diogo Queiroz",
