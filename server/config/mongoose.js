@@ -15,23 +15,23 @@ module.exports = function (config) {
         username: String
     });
 
-    var User = mongoose.model("User", userSchema);
+    var User = mongoose.model('User', userSchema);
     User.find({}).exec(function (err, collection) {
         if(collection.length === 0){
             User.create({
-                firstName: "Diogo",
-                lastName: "Queiroz",
-                username: "DQX1212"
+                firstName: 'Diogo',
+                lastName: 'Queiroz',
+                username: 'DQX1212'
             });
             User.create({
-                firstName: "Andressa",
-                lastName: "Queiroz",
-                username: "andressaQ"
+                firstName: 'Andressa',
+                lastName: 'Queiroz',
+                username: 'andressaQ'
             });
             User.create({
-                firstName: "Joe",
-                lastName: "Eames",
-                username: "Joe"
+                firstName: 'Joe',
+                lastName: 'Eames',
+                username: 'Joe'
             });
         }
     })
