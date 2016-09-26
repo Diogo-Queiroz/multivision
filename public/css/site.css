@@ -3,7 +3,7 @@ body {
   padding-top: 61px;
   font-family: "Lato", "Poiret One", "Cantarell", sans-serif;
   font-weight: 900;
-  margin-bottom: 125px;
+  margin-bottom: 95px;
 }
 .navbar-header a.navbar-brand {
   margin-top: -15px;
@@ -27,7 +27,7 @@ footer p {
   margin-bottom: 5px;
 }
 footer.page-footer {
-  padding-top: 55px;
+  padding-top: 25px;
   padding-bottom: 0;
   position: fixed;
   bottom: 0;
