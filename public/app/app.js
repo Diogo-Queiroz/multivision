@@ -1,7 +1,11 @@
 angular.module('app', ['ngResource', 'ngRoute']);
 
 angular.module('app').config(function($routeProvider, $locationProvider){
-	var routeRoleCheck = {
+	/*
+	Variável responsável por guardar o valor se um usuário tem permissão de
+
+	 */
+    var routeRoleCheck = {
         admin: {
             auth: function (mvAuth) {
                 return mvAuth.authorizeCurrentUserForRoute('admin');
